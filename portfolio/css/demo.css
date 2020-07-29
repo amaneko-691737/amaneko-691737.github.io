@@ -132,6 +132,7 @@ a:hover, a:focus {
 /* Demo links */
 .codrops-demos {
 	margin: 1.5em 0;
+	font-size: 2rem;
 }
 
 .codrops-demos a {
@@ -142,7 +143,7 @@ a:hover, a:focus {
 }
 
 .codrops-demos a.current-demo {
-	color: #ce4555;
+	color: black;
 }
 
 /* Content */

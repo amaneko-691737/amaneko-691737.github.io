@@ -161,10 +161,6 @@
 					viewportFactor : 0
 				});
 			}
-
-			// grid is "loaded" (all images are loaded)
-			self.options.onGridLoaded();
-			classie.add(self.gridEl, 'grid--loaded');
 		});
 	};
 
