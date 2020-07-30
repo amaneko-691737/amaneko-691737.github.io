@@ -1,0 +1,81 @@
+body {
+  background-image: url("../img/background.png");
+  background-size: cover;
+  background-attachment: fixed;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.profile-photo img {
+  display: block;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+.profile-text {
+  max-width: 600px;
+  padding: 2rem;
+  color: #fff;
+}
+h1 {
+  font-size: 4rem;
+  letter-spacing: 0.1em;
+}
+p{font-size: 1rem;
+  letter-spacing: 0.1em;
+}
+strong{font-size: 1.5rem;
+  letter-spacing: 0.1em;
+}
+.social {
+  list-style: none;
+  display: flex;
+  margin-top: 1.5rem;
+}
+.social li {
+  line-height: 1;
+  padding: 0.8rem;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #fff;
+  transition: 0.5s color;
+}
+.social li .nolink{
+  color: gray;
+}
+.social li .e-mail:hover {
+  color: yellow;
+}
+.social li .youtube:hover {
+  color: red;
+}
+.social li .nolink:hover{
+  color: black;
+}
+.background-filter {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background-attachment: fixed;
+  opacity: 0.75;
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+}
+.profile-photo {
+  position: relative;
+}
+.profile-text {
+  max-width: 600px;
+  padding: 2rem;
+  color: #fff;
+}
+.social li a {
+  text-decoration: none;
+  color: #fff;
+  transition: 1s color;
+}

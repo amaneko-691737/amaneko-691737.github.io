@@ -1,24 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-*::after,
-*::before {
-    box-sizing: inherit;
-}
-:root {
-    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
-    font-feature-settings: "palt";
-    font-size: 16pt;
-}
-
-.global-nav h1 {
-    font-size: 1.5rem;
-    font-family: 'Pacifico', cursive;
-    margin-left: 1rem;
-    color: red;
-}
 section {
     height: 90vh;
     display: flex;
@@ -26,6 +5,17 @@ section {
     justify-content: center;
     font-size: 5rem;
     background-color: black;
+}
+section:nth-child(2n + 1) {
+    background-color: var(--primary-050);
+    color: var(--secondary-050);
+}
+iframe {
+    width: 100%;
+    height: 100%;
+}
+#sec1 {
+    margin-top: 10vh;
 }
 .p1{
     writing-mode: vertical-rl;
@@ -38,55 +28,4 @@ section {
     padding: 3rem 3rem;
     font-size: 1.5rem;
     color: black;
-}
-section:nth-child(2n + 1) {
-    background-color: var(--primary-050);
-    color: var(--secondary-050);
-}
-
-.global-nav {
-    background-color:white;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.global-nav .menu ul {
-    display: flex;
-    list-style: none;
-    align-items: center;
-}
-.global-nav .menu ul a {
-    color: gray;
-    text-decoration: none;
-    display: inline-block;
-    line-height: 1;
-    font-size: 1.125rem;
-    padding: calc(1.25rem - 4px) 2rem;
-    border-right: 1px solid gray;
-    border-top: 4px solid transparent; 
-    border-bottom: 4px solid transparent; 
-    transition: color,background-color 0.3s;
-}
-.global-nav .menu ul .current{
-    color: black;
-    background-color: gray;
-}
-.global-nav .menu ul li:last-child a {
-    border-right: none;
-}
-.global-nav .menu ul a:hover {
-    color: red;
-    background-color: black;
-}
-
-iframe {
-    width: 100%;
-    height: 100%;
-}
-#sec1 {
-    margin-top: 10vh;
 }
