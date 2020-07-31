@@ -12,6 +12,17 @@
     font-feature-settings: "palt";
     font-size: 16pt;
 }
+.global-nav {
+    top: 0;
+    left: 0;
+    height: 10vh;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    background-color:white;
+    justify-content: space-between;
+}
 .global-nav img {
     height: 1.5rem;
     width: 1.5rem;
@@ -22,16 +33,6 @@
     font-size: 1.5rem;
     font-family: 'Pacifico', cursive;
     color: red;
-}
-.global-nav {
-    background-color:white;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
 }
 .global-nav .menu ul {
     display: flex;
@@ -53,11 +54,13 @@
 .global-nav .menu ul .current{
     color: black;
     background-color: gray;
+    text-shadow: 1.5px 1.5px 0 white;
 }
 .global-nav .menu ul li:last-child a {
     border-right: none;
 }
 .global-nav .menu ul a:hover {
     color: red;
+    text-shadow: none;
     background-color: black;
 }
