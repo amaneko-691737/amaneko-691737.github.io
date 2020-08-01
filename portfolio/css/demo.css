@@ -161,7 +161,7 @@ a:hover, a:focus {
 }
 
 .section--intro {
-	background: linear-gradient(150deg, #DCDCDC, #29324D);
+	background: linear-gradient(150deg, pink, orange);
 }
 
 .section__heading {

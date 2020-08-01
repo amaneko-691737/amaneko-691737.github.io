@@ -6,7 +6,7 @@ section {
     font-size: 5rem;
     background-color: black;
 }
-section:nth-child(2n + 1) {
+section:nth-child(2n) {
     background-color: var(--primary-050);
     color: var(--secondary-050);
 }
