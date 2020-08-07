@@ -10,13 +10,13 @@
 :root {
     font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
     font-feature-settings: "palt";
-    font-size: 16pt;
+    font-size: 2vw;
 }
 .global-nav {
     top: 0;
     left: 0;
     height: 10vh;
-    width: 100%;
+    width: 100vw;
     position: fixed;
     display: flex;
     align-items: center;
@@ -45,7 +45,7 @@
     display: inline-block;
     line-height: 1;
     font-size: 1.125rem;
-    padding: calc(1.25rem - 4px) 2rem;
+    padding: calc(1.25rem - 4rem) 1rem;
     border-right: 1px solid gray;
     border-top: 4px solid transparent; 
     border-bottom: 4px solid transparent; 
