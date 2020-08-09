@@ -1,31 +1,99 @@
-section {
-    height: 90vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 5rem;
-    background-color: black;
+@media screen and (min-width: 0px) {
+    section {
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 5rem;
+        background-color: black;
+    }
+    section:nth-child(2n) {
+        background-color: var(--primary-050);
+        color: var(--secondary-050);
+    }
+    iframe {
+        width: 100%;
+        height: 100%;
+    }
+    #sec1 {
+        margin-top: 10vh;
+    }
+    .p1{
+        writing-mode: vertical-rl;
+        padding: 5vw 5vw;
+        font-size: 2vw;
+        color: white;
+    }
+    .p2{
+        writing-mode: vertical-rl;
+        padding: 5vw 5vw;
+        font-size: 2vw;
+        color: black;
+    }
 }
-section:nth-child(2n) {
-    background-color: var(--primary-050);
-    color: var(--secondary-050);
+@media screen and (min-width: 896px) {
+    section {
+        height: 45vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 5rem;
+        background-color: black;
+    }
+    section:nth-child(2n) {
+        background-color: var(--primary-050);
+        color: var(--secondary-050);
+    }
+    iframe {
+        width: 100%;
+        height: 100%;
+    }
+    #sec1 {
+        margin-top: 10vh;
+    }
+    .p1{
+        writing-mode: vertical-rl;
+        padding: 5vw 5vw;
+        font-size: 2vw;
+        color: white;
+    }
+    .p2{
+        writing-mode: vertical-rl;
+        padding: 5vw 5vw;
+        font-size: 2vw;
+        color: black;
+    }
 }
-iframe {
-    width: 100%;
-    height: 100%;
-}
-#sec1 {
-    margin-top: 10vh;
-}
-.p1{
-    writing-mode: vertical-rl;
-    padding: 3rem 3rem;
-    font-size: 1.5rem;
-    color: white;
-}
-.p2{
-    writing-mode: vertical-rl;
-    padding: 3rem 3rem;
-    font-size: 1.5rem;
-    color: black;
+@media screen and (min-width: 1025px) {
+    section {
+        height: 90vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 5rem;
+        background-color: black;
+    }
+    section:nth-child(2n) {
+        background-color: var(--primary-050);
+        color: var(--secondary-050);
+    }
+    iframe {
+        width: 100%;
+        height: 100%;
+    }
+    #sec1 {
+        margin-top: 10vh;
+    }
+    .p1{
+        writing-mode: vertical-rl;
+        padding: 5vw 5vw;
+        font-size: 2vw;
+        color: white;
+    }
+    .p2{
+        writing-mode: vertical-rl;
+        padding: 5vw 5vw;
+        font-size: 2vw;
+        color: black;
+    }
 }
