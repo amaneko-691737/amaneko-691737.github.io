@@ -74,6 +74,9 @@ main {
 .social li .youtube:hover {
   color: red;
 }
+.social li .twitter:hover {
+  color: cyan;
+}
 .social li .nolink:hover{
   color: gray;
 }
